@@ -36,8 +36,12 @@ public class Product {
     public void setPrice(double price) {
         _price = price;
     }
-    public double getPrice() {
+    public Double getPrice() {
+        
         return _price;
+    }
+    public String getPriceComp(){
+        return getPrice().toString;
     }
 }
 
