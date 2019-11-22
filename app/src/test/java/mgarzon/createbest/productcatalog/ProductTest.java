@@ -6,7 +6,7 @@ public class ProductTest {
 
     @Test
     public void checkProductName() {
-        Product aProduct = new Product("1", "DELL MONITOR", 180);
+        Product aProduct = new Product("1", "DELL MONITOR", 0);
         assertEquals("Check the name of the product", "DELL MONITOR", aProduct.getProductName());
     }
 
