@@ -40,9 +40,7 @@ public class Product {
         
         return _price;
     }
-    public String getPriceComp(){
-        return getPrice().toString;
-    }
+    
 }
 
 
